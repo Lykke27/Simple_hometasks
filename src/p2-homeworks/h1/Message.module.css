@@ -1,0 +1,56 @@
+.dialog {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+
+.dialog .avatar {
+    align-self: flex-end;
+}
+
+.dialog .avatar img{
+    width: 75px;
+    border-radius: 50%;
+}
+
+.bubble {
+    background-color: BurlyWood;
+    width: 400px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    margin-left: 20px;
+    position:relative;
+}
+
+.bubble:after {
+    content: " ";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 10px solid BurlyWood;
+    border-top: 10px solid transparent;
+    border-bottom: 11px solid BurlyWood;
+    bottom: 0;
+    left: -20px;
+}
+.bubble.inner {
+    padding-bottom: 5px;
+}
+.bubble .message {
+    color:black ;
+    padding-left: 10px;
+    padding-right: 5px;
+
+}
+
+.bubble .name {
+    color:Maroon ;
+    padding-left:10px;
+    padding-top:5px;
+}
+
+.bubble .time {
+    float:right;
+    padding: 8px;
+}
