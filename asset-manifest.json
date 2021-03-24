@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Simple_hometasks/static/css/main.f4692a7c.chunk.css",
+    "main.js": "/Simple_hometasks/static/js/main.9f10a950.chunk.js",
+    "main.js.map": "/Simple_hometasks/static/js/main.9f10a950.chunk.js.map",
+    "runtime-main.js": "/Simple_hometasks/static/js/runtime-main.cc87cb22.js",
+    "runtime-main.js.map": "/Simple_hometasks/static/js/runtime-main.cc87cb22.js.map",
+    "static/js/2.99469052.chunk.js": "/Simple_hometasks/static/js/2.99469052.chunk.js",
+    "static/js/2.99469052.chunk.js.map": "/Simple_hometasks/static/js/2.99469052.chunk.js.map",
+    "index.html": "/Simple_hometasks/index.html",
+    "static/css/main.f4692a7c.chunk.css.map": "/Simple_hometasks/static/css/main.f4692a7c.chunk.css.map",
+    "static/js/2.99469052.chunk.js.LICENSE.txt": "/Simple_hometasks/static/js/2.99469052.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc87cb22.js",
+    "static/js/2.99469052.chunk.js",
+    "static/css/main.f4692a7c.chunk.css",
+    "static/js/main.9f10a950.chunk.js"
+  ]
+}
