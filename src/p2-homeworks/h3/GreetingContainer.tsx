@@ -3,7 +3,7 @@ import Greeting from "./Greeting";
 import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-    users: UserType[] // need to fix any
+    users: UserType[]
     addUserCallback: (name: string) => void
 }
 
@@ -12,19 +12,21 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const [error, setError] = useState<boolean>(false);
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
-        const trimName = e.currentTarget.value.trim()
-        if (trimName) {
-            setName(trimName);
+        let newName = e.currentTarget.value.trim()
+            setName(newName);
             setError(false)
-        } else {
+    };
+
+    const addUser = () => {
+        if (name.trim() === '') {
             setError(true)
+            alert("Введите имя!")
+        } else {
+            addUserCallback(name)
+            alert(`Hello, ${name}`)
+            setName("")
         }
 
-    };
-    const addUser = () => {
-        addUserCallback(name)
-        alert(`Hello ${name}`)
-        setName("")
     };
 
     const totalUsers = users.length;

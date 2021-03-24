@@ -1,14 +1,14 @@
 .dialog {
     display: flex;
     margin-bottom: 10px;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 .dialog .avatar {
     align-self: flex-end;
 }
 
-.dialog .avatar img{
+.dialog .avatar img {
     width: 75px;
     border-radius: 50%;
 }
@@ -19,7 +19,7 @@
     border-radius: 5px;
     word-wrap: break-word;
     margin-left: 20px;
-    position:relative;
+    position: relative;
 }
 
 .bubble:after {
@@ -34,23 +34,25 @@
     bottom: 0;
     left: -20px;
 }
+
 .bubble.inner {
     padding-bottom: 5px;
 }
+
 .bubble .message {
-    color:black ;
+    color: black;
     padding-left: 10px;
     padding-right: 5px;
 
 }
 
 .bubble .name {
-    color:Maroon ;
-    padding-left:10px;
-    padding-top:5px;
+    color: Maroon;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .bubble .time {
-    float:right;
+    float: right;
     padding: 8px;
 }

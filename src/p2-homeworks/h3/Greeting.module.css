@@ -1,7 +1,36 @@
 .greetingForm {
-    margin-left: 10px;
-    align-content: center;
+    outline: none;
+    padding: 10px;
 }
+
+.greetingForm input {
+    height: 25px;
+    outline: none;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.greetingForm button {
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+    color: white;
+    background-color: #29a7c4;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.greetingForm button:hover {
+    background-color: #1f6d7e;
+    transition-duration: 0.5s;
+
+}
+
 
 .error {
     border: 1px solid red;
