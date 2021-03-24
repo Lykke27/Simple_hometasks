@@ -1,18 +1,23 @@
 import React, {useState} from "react";
 import GreetingContainer from "./GreetingContainer";
+import {v1} from "uuid";
 
 // types
 export type UserType = {
-    _id: string // need to fix any
-    name: string // need to fix any
+    _id: string
+    name: string
 }
 
 
 function HW3() {
-    const [users, setUsers] = useState<string[]>([]);
+    const [users, setUsers] = useState<UserType[]>([]);
 
     const addUserCallback = (name: string) => {
-        setUsers([...users, name]);
+        const user = {
+            name,
+            _id: v1()
+        }
+        setUsers([...users, user]);
     }
 
     return (
