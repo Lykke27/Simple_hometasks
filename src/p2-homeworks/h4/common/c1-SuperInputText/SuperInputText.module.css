@@ -1,33 +1,23 @@
 .superInput {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    border: 2px solid #C2C2C2;
-    box-shadow: 1px 1px 4px #EBEBEB;
-    -moz-box-shadow: 1px 1px 4px #EBEBEB;
-    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
-    border-radius: 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    padding: 7px;
+    height: 25px;
     outline: none;
-    color:black;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
+
 .errorInput {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    border: 2px solid #C2C2C2;
-    box-shadow: 1px 1px 4px #EBEBEB;
-    -moz-box-shadow: 1px 1px 4px #EBEBEB;
-    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
-    border-radius: 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    padding: 7px;
+    height: 25px;
     outline: none;
-    background-color: red;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #e52727;
 }
 
 .error {

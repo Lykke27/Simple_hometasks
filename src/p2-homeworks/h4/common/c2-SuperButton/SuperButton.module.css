@@ -36,7 +36,6 @@
 }
 
 .red:hover {
-    background: #801515;
-    letter-spacing: 5px;
+    background-color: #be0909;
     transition: all 0.2s ease 0s;
 }
