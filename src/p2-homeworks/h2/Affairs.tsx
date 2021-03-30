@@ -1,5 +1,6 @@
 import React from "react";
 import Affair from "./Affair";
+import styles from "./Affairs.module.css"
 import {AffairType, FilterType} from "./HW2";
 
 type AffairsPropsType = { // need to fix any
@@ -31,14 +32,16 @@ function Affairs(props: AffairsPropsType) {
     };
 
     return (
-        <div>
-
-            {mappedAffairs}
-
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+        <div className={styles.affairsContainer}>
+            <div className={styles.affairs}>
+                {mappedAffairs}
+            </div>
+            <div>
+                <button onClick={setAll}>All</button>
+                <button onClick={setHigh}>High</button>
+                <button onClick={setMiddle}>Middle</button>
+                <button onClick={setLow}>Low</button>
+            </div>
         </div>
     );
 }

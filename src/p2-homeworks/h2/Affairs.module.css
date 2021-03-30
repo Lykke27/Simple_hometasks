@@ -1,3 +1,15 @@
-.someClass {
+.affairsContainer{
+    width:200px;
+    margin:10px;
+    text-align: left;
+}
 
+.affair {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.affair button {
+    margin-right: 5px;
+    cursor: pointer;
 }
