@@ -15,27 +15,26 @@
 }
 
 .default:hover {
-    background: #c3302d;
-    letter-spacing: 5px;
-    transition: all 0.2s ease 0s;
-}
-
-.red {
-    background: red;
-    color: white !important;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 15px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
-    transition: all 0.2s ease 0s;
-    outline: none;
-    margin:5px;
-    cursor: pointer;
-}
-
-.red:hover {
     background-color: #be0909;
     transition: all 0.2s ease 0s;
 }
+
+/*.red {*/
+/*    background: red;*/
+/*    color: white !important;*/
+/*    text-transform: uppercase;*/
+/*    text-decoration: none;*/
+/*    padding: 15px;*/
+/*    border-radius: 5px;*/
+/*    display: inline-block;*/
+/*    border: none;*/
+/*    transition: all 0.2s ease 0s;*/
+/*    outline: none;*/
+/*    margin:5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.red:hover {*/
+/*    background-color: #be0909;*/
+/*    transition: all 0.2s ease 0s;*/
+/*}*/

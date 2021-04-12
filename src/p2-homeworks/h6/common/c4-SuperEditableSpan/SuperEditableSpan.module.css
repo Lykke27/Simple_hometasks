@@ -1,0 +1,12 @@
+.span {
+    display: inline-block;
+    height: 31px;
+    margin: 10px;
+
+    cursor: pointer;
+    color: black;
+}
+
+.span img {
+    width:25px;
+}
